@@ -84,4 +84,13 @@ The output showed `some text has been written`, confirming the file is stored on
 | Mount point | `/dev/xvdbf` mounted on `/mnt/data-store` (confirmed with `df -h`) |
 | Persistent mount | Entry added to `/etc/fstab` |
 | Test file | `file.txt` written and read back from the mounted volume |
-|
+| Snapshot | [Add screenshot of the completed snapshot in the Snapshots list] |
+
+## Notes
+
+- The snapshot form was filled in as described above. Confirm the snapshot shows as completed before submitting this project.
+- Volume, snapshot, instance, and account IDs, IP addresses, and DNS names have been redacted.
+
+## Cleanup
+
+After grading, delete the snapshot, detach and delete the volume, and terminate the instance to avoid charges.
